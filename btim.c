@@ -4,8 +4,8 @@
 TIM_HandleTypeDef g_tim6_handle;
 
 /* 7位伪随机序列 (PRBS) */
-const uint8_t PRBS_SEQ[7] = {1, 1, 1, 0, 0, 1, 0}; 
-#define SEQ_LENGTH 7
+const uint8_t PRBS_SEQ[7] = {1, 1, 1, 0, 0, 1, 0};     /* PRBS-7 */
+#define SEQ_LENGTH 7     /* 码元长度 */
 #define DEAD_TIME_MS 2  /* 强电死区时间 2ms */
 
 /* 三通道独立时间轴与序列索引 */
